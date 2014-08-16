@@ -1,0 +1,66 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black; }
+
+#SCsearch {
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #3c3c3c;
+  color: white;
+  position: absolute; }
+
+ul#tracklist {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin-top: 55px;
+  height: 100%;
+  overflow: scroll; }
+  ul#tracklist li {
+    background-color: white;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    cursor: pointer;
+    overflow: hidden; }
+    ul#tracklist li img {
+      height: 100%;
+      width: 20%; }
+    ul#tracklist li p {
+      display: inline-block;
+      font-size: 9px;
+      height: 60px;
+      vertical-align: middle;
+      padding-left: 10px; }
+    ul#tracklist li:hover {
+      background-color: #ffd5a4; }
+
+#searchwrapper {
+  display: none;
+  width: 300px;
+  background-color: #fff;
+  height: 100%;
+  float: left;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-right: 1px solid grey; }
+
+canvas {
+  float: left; }
+
+#copyr {
+  position: relative;
+  margin-top: 300px;
+  font-size: 11px;
+  color: grey; }
